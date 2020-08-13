@@ -42,7 +42,8 @@ def over?(board)
 end
 
 def winner(board)
-  if !full?(board)
-    return
+  won?(board).detect do |winner|
+    if "winner" == "X" || "O"
+    return "winner"
   end
 end
