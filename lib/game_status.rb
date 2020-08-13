@@ -25,6 +25,7 @@ def full?(board)
   board.each? do |a|
   if a = "X" || a = "O"
     return true
+    end
   end
 end
 
