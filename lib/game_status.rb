@@ -22,12 +22,8 @@ def won?(board)
   end
 
 def full?(board)
-  board.all? do |a|
-  if a = "X" || a = "O"
-    return true
-  elsif a = " "
-    return false
-    end
+  board.all? do |a| 
+    a = "X" || a = "O"
   end
 end
 
