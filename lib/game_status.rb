@@ -25,7 +25,7 @@ def full?(board)
   board.each do |a|
     if a == "X" || a == "O"
       return true
-    elsif a == " "
+    elsif !position_taken?(board, index)
       return false
     end
   end
