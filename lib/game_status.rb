@@ -22,7 +22,9 @@ def won?(board)
   end
 
 def full?(board)
-  board.all { |a| a == "X" || a == "O" }
+  board.all |a|
+  if a == "X" || a == "O"
+    return true
 end
 
 #def draw?(board)
