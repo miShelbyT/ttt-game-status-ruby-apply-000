@@ -25,7 +25,8 @@ def full?(board)
   board.all? do |a|
   if a = "X" || a = "O"
     return true
-    else return false
+  elsif a = " "
+    return false
     end
   end
 end
