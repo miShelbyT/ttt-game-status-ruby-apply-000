@@ -42,8 +42,8 @@ def over?(board)
 end
 
 def winner(board)
-  if won?(board)
-  if !full?(board) { |a| a == "X" || a == "O" }
+  full?(board)
+    a == "Winner"
     return a
   end
 end
