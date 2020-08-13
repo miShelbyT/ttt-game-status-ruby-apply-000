@@ -43,6 +43,6 @@ end
 
 def winner(board)
   if !full?(board)
-    return a == "Winner"
+    return
   end
 end
