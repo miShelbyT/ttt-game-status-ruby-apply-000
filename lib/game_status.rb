@@ -25,6 +25,8 @@ def full?(board)
   board.all |a|
   if a == "X" || a == "O"
     return true
+  else
+    return false
 end
 
 #def draw?(board)
