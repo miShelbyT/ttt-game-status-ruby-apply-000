@@ -42,7 +42,7 @@ def over?(board)
 end
 
 def winner(board)
-  if
-    return
+  if !full?(board)
+    return a == "Winner"
   end
 end
