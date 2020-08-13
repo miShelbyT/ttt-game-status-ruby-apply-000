@@ -42,9 +42,7 @@ def over?(board)
 end
 
 def winner(board)
-  if a == "X"
+  if a == "X" || a == "O"
     return a
-
-  else false
   end
 end
