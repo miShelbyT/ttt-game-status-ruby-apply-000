@@ -25,6 +25,7 @@ def full?(board)
   board.every? |a|
   if a = "X" || a = "O"
     return true
+  end
 end
 
 #def draw?(board)
