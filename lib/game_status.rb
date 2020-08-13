@@ -23,9 +23,9 @@ def won?(board)
 
 def full?(board)
   board.each do |a|
-    if a = "X" || a = "O"
+    if a == "X" || a == "O"
       return true
-    elsif a = " "
+    elsif a == " "
       return false
     end
   end
