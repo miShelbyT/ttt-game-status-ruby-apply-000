@@ -22,7 +22,7 @@ def won?(board)
   end
 
 def full?(board)
-  board.all? do |a| 
+  board.all? do |a|
     a = "X" || a = "O"
   end
 end
