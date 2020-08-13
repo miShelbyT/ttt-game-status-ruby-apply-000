@@ -42,8 +42,7 @@ def over?(board)
 end
 
 def winner(board)
-  won?(board).detect do |winner|
-    if winner == "X", "X", "X" || winner == "O", "O", "O"
-    return winner
+  if won?(board)
+    return board[won?(board)[0]]
     end
 end
