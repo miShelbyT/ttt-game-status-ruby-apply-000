@@ -21,9 +21,9 @@ def won?(board)
     end
   end
 
-#def full?(board)
-#  board.all? { |a| a = "X" || a = "O" }
-#end
+def full?(board)
+  board.every? { |a| a = "X" || a = "O" }
+end
 
 #def draw?(board)
 #  if !won?(board) && full?(board)
