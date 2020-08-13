@@ -42,8 +42,3 @@ def over?(board)
 end
 
 def winner(board)
-  full?(board)
-    a == "Winner"
-    return a
-  end
-end
