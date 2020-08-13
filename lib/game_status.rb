@@ -42,6 +42,7 @@ def over?(board)
 end
 
 def winner(board)
+  won?(board).detect do |a|
   if a == "X" || a == "O"
     return a
   end
