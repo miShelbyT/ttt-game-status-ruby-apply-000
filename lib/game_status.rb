@@ -22,12 +22,7 @@ def won?(board)
   end
 
 def full?(board)
-  board.each do |a|
-    if a == "X" || a == "O"
-      return true
-    elsif !position_taken?(board, index)
-      return false
-    end
+  board.all { |a| a == "X" || a == "O" }
   end
 end
 
